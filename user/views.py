@@ -3,7 +3,7 @@ import bcrypt
 import uuid
 
 from user.models import User
-from user.forms import RegisterForm, LoginForm, EditForm, ForgotForm
+from user.forms import RegisterForm, LoginForm, EditForm, ForgotForm, PasswordResetForm
 from utilities.common import email
 
 user_app = Blueprint('user_app', __name__)
